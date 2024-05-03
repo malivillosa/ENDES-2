@@ -8,6 +8,7 @@ class Persona:
     def __str__(self):
         return f"{self.dni}, {self.nombre}, {self.apellidos}, {self.edad}"
 
+
 class Main:
     def __init__(self):
         persona1 = Persona("dni1", "nom1", "ape1", "edad1")
